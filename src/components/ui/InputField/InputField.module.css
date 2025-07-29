@@ -1,0 +1,8 @@
+.input-main {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color-main);
+  border-radius: 5px;
+  font-size: .9rem;
+  color: #333333;
+}

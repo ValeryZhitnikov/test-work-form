@@ -1,0 +1,28 @@
+.button-main {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-main:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.button-main[disabled] {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.button-main__secondary {
+  background-color: #ffffff;
+  color: var(--color-primary);
+}
+
+.button-main__secondary:hover {
+  background-color: #ffffff;
+  color: var(--color-primary);
+}
